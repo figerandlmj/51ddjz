@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:/Admin/
+Disallow:/Config/
+Disallow:/Public/
+Disallow:/Lib/
+Disallow:/Web/

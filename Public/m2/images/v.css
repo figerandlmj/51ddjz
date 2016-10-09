@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+html { 
+overflow-x:auto;
+overflow-y:auto;
+} 
+body{
+	margin:0; padding:0; font-family:microsoft yahei; width:100%; overflow-x:hidden; background:#fafafa;
+	}
+a,ul,li,p,span,table,tr,td,ol,dl,dt,dd,input,textarea{
+	margin:0; padding:0; list-style:none; text-decoration:none;
+	}
+.F{
+	font-family:宋体;
+	}
+
+table.l{
+	background:#ccc; border-bottom:#ccc solid 2px;
+	}
+	table.l th{
+		padding:6px; font-size:14px; background: #DEE7EF url(thbg.gif) repeat-x; border-bottom:solid 2px #bbb;
+		}
+	table.l td{
+		background:#fff; padding:6px;
+		}
+	table.l td a{
+		padding:3px 12px; background: #ff8400; color:#222;  font-weight:bold;
+		border-bottom:#111 solid 1px; border-right:#111 solid 1px;
+		background: -moz-linear-gradient(top, #f6f6f6 0%, #d3d3d3 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#f6f6f6));
+        background: -webkit-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: -o-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: -ms-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: linear-gradient(to bottom, #f6f6f6 0%,#d3d3d3 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#d3d3d3',GradientType=0 );
+		border-radius:20px;
+
+		
+		}
+	table.l td a:hover{
+		background:#d3d3d3; 
+		
+		}
+	
+	
+	
+.header{
+	width:100%; height:50px; background:#22558C url(hederbg.png) repeat-x; overflow:hidden; position: fixed; top:0; left:0; z-index:9;
+	border-bottom: solid 0d284f  4px;
+	}
+	.header .warp{
+		width:96%; height:50px; margin:0 auto; overflow:hidden;
+		}
+	.header .warp .logo{
+		line-height:50px; font-size:18px; color:#fff; float:left; width:180px;
+		}
+	.header .warp li{
+		width:auto; height:50px; float:right; padding:0 20px; line-height:50px; color:#fff; font-size:14px;
+		background:url(htnbg.gif) no-repeat center center; margin:0px;
+		}
+	.header .warp li a{
+		 color:#222; text-shadow: 1px 1px 0px #fff;
+		}
+	.header .warp li.line{
+		height:1px; border-bottom:#ddd solid 1px; line-height:1px; margin:10px 0;
+		}
+		
+
+.left{
+	width:100px; position:fixed; height:100%; background:#eee url(leftbg.gif) left top repeat-y; overflow:hidden; left:0; top:0; z-index:8;
+	} 
+	.left .mtop{
+		width:100%; height:80px
+		}
+	.left li.line{
+		height:1px; border-bottom:#ddd solid 1px; line-height:1px; margin:10px 0;
+		}
+	.left li{
+		width:100%; height:30px; overflow:hidden;
+		}
+		.left li a{
+			line-height:30px; display:block; color: #06F; font-weight:bold; font-size:14px; text-indent:1em;
+			}
+		.left li:hover,.left li.on{
+			background:#085ddb;
+			}
+		.left li:hover a,.left li.on a{
+			color:#fff;
+			}
+
+.menu{
+	width:130px; position:fixed; height:100%; background:#fff url(menubg.gif) repeat-y right top; overflow:hidden; left:100px; top:0; z-index:8;
+	border-right: 2px #fff solid;
+	}
+	.menu .mtop{
+			width:100%; height:80px
+			}
+		.menu li{
+			width:100%; height:30px; overflow:hidden;
+			}
+			.menu li a{
+				line-height:30px; display:block; color:#777; font-size:12px; text-indent:1em;
+				}
+			.menu li a:hover,.menu li.on{
+				background:#085ddb; color:#fff;
+				}
+			.menu li.on a{
+				color:#fff;
+				}
+.menu ul{
+	display:none;
+	}
+
+
+input[type="text"],input[type="password"]{
+	height:18px; padding:4px; border:#bbb solid 1px; background:#fff url(inputBG.png) repeat-x left -7px;
+	font-family:microsoft yahei; font-size:12px; color:#666; width:180px; 
+	}
+textarea{
+	padding:4px; border:#bbb solid 1px;  background: #fff url(inputBG.png) repeat-x left -7px; 
+	font-family:microsoft yahei;font-size:12px; color:#666;  
+	}
+select{
+    padding:3px; border:#bbb solid 1px; background:#fff url(inputBG.png) repeat-x left -7px; 
+	font-family:microsoft yahei; font-size:12px; color:#666; width:180px; 
+	}
+label{
+	cursor:pointer; width:100px; float:left;
+	}
+.right{
+	width:auto; height:auto; padding-bottom:30px; overflow:hidden; position:absolute; top:50px; left:253px; overflow-x:hidden; font-size:16px;
+	
+	}
+
+  .right .title{
+	  width:98%; height:50px; line-height:50px; border-bottom:solid 1px #ddd; font-size:14px; color:#777; margin-bottom:20px;
+	  }
+	  .right .title span{
+		  float:left; 
+		  }
+	  .right .title a{
+		  float:right; display:block; line-height:20px; margin-top:12px; 
+		 padding:4px 12px; background: #ff8400; color:#20385c; margin-right:2px;
+		border-bottom:#111 solid 1px; border-right:#111 solid 1px;
+		  background: -moz-linear-gradient(top, #f6f6f6 0%, #d3d3d3 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#f6f6f6));
+        background: -webkit-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: -o-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: -ms-linear-gradient(top, #f6f6f6 0%,#d3d3d3 100%);
+        background: linear-gradient(to bottom, #f6f6f6 0%,#d3d3d3 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#d3d3d3',GradientType=0 );
+		border-radius:20px;
+		  }
+		  .right .title a:hover{
+			  background:#d3d3d3
+			  }
+		  .success{
+			  width:320px; height:32px; line-height:32px; background:#A9D6B1; padding:0 20px; border:#693 solid 1px;
+			  float:left; margin-left:20px; margin-top:8px; color:#060; border-radius:3px;
+			  }
+
+button{
+	padding:3px 50px; color:#fff; font-family:microsoft yahei; background:#22558C; border:none; cursor:pointer;
+	 text-shadow:1px 1px 0 #222;
+		background: -moz-linear-gradient(top, #4e8fee 0%, #0550c0 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0550c0), color-stop(100%,#4e8fee));
+        background: -webkit-linear-gradient(top, #4e8fee 0%,#0550c0 100%);
+        background: -o-linear-gradient(top, #4e8fee 0%,#0550c0 100%);
+        background: -ms-linear-gradient(top, #4e8fee 0%,#0550c0 100%);
+        background: linear-gradient(to bottom, #4e8fee 0%,#0550c0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e8fee', endColorstr='#0550c0',GradientType=0 );
+        border-top:#468bf1 solid 1px; border-left:#468bf1 solid 1px; border-right:#042b65 solid 1px; border-bottom:#042b65 solid 1px;
+		 
+	
+	}
+
+.right td{
+	 color:#333;
+	}
+.right td span{
+	color:#999;
+	}
+
+/****************登陆页********************/
+
+.login-body-bg{
+	background:#D5DDF4 url(001.jpg) center top;
+	}
+.login-body-bg .title{
+	width:520px; height:60px; background: #09F; line-height:60px; font-size:22px; color:#fff; text-align:center;
+	margin:8% auto 0 auto; border-bottom:solid 7px #444;
+
+	}
+
+.login-body-bg .box{
+	width:440px; padding:40px; background: #fff; margin:0 auto; overflow:hidden;
+	}
+.login-body-bg .box input{
+	width:99%; margin:10px 0; height:32px; line-height:32px; text-indent:1em; font-size:16px;
+	}
+.login-body-bg .box button{
+	width:100%; margin-left:2px; height:46px;  background: #F60  ; border:0; text-shadow:none;  margin-top:12px; font-size:18px;
+	}
+.login-body-bg .box .code{
+	float:left; margin-top:10px; margin-left:15px; border:solid 1px #aaa; padding:0; overflow:hidden; height:36px;
+	}
+th{
+	color: #36F;
+	}
+
+/****************选择框********************/
+.shadow-bg{
+	width:100%; height:100%; position:absolute; background:#000;filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5; z-index:20; display:none;
+	}
+.chs-box{
+	width:800px; height:540px; padding:20px; background:#fff; border:#ddd solid 3px; overflow:hidden; position:absolute; left:50%; margin-left:-400px; margin-top:100px; z-index:21;
+	display:none;
+	}
+.chs-box .chs-title{
+	width:100%; height:30px; border-bottom:solid 1px #aaa; overflow:hidden; margin-bottom:12px;
+	}
+	/*-----------*/
+.chs-box .chs-search{
+	width:100%; height:60px; border-bottom:solid 1px #aaa; overflow:hidden; margin-bottom:12px;
+	margin-top:30px;
+	}
+	/*--------------*/
+.chs-box .chs-title span{
+	line-height:30px; float:left; color:#555;
+	}
+.chs-box .chs-title .chs-close{
+	float:right; background: #F60; color:#fff; line-height:30px; padding:0 10px; cursor:pointer; 
+	}
+.chs-box .chs-list{
+	width:100%; font-size:14px; color:#888; height:498px; overflow-y:auto; overflow-x:hidden; 
+	}
+.chs-box .chs-list tr:hover{
+	background:#f5f5f5;
+	}
+.chs-box .chs-list td{
+	padding:4px;
+	}
+.chs-box .chs-list li{
+	font-size:12px; color:#222; float:left; padding:4px 10px; cursor:pointer;
+	}
+.chs-box .chs-list li:hover{
+	color:#000; text-decoration:underline;
+	}
+#powers{
+	width:1000px; height:auto; border: #ddd dashed 3px;
+	}
+#powers input{
+	margin-right:4px; vertical-align:middle;
+	}
+#powers td{
+	border-bottom: solid #ddd 1px;height:26px; padding-bottom:3px;  padding:5px 0;
+	}
+#powers tr{
+	 margin-top:0; 
+	}
+#powers tr:hover{
+	background:#f5f5f5;
+	}
+#powers label{
+	width:120px; height:26px; line-height:26px; display:blockl; float:left; padding:0 5px; font-size:12px;
+	}
+#powers label:hover{
+	width:118px; height:24px; line-height:24px; background:#FFC; border:solid #F93 1px; padding:0 6px 0 4px;
+	}
+
+
+
+.sdiv1{
+	width:40%; height:150px; float:left; margin:10px; overflow:hidden; border:#999 solid 1px; background:#fff;
+	}
+.sdiv1 font{
+	font-weight:bold; margin-right:20px;}
+.sdiv1 h4{
+	width:100%; height:36px; line-height:36px; color:#444; background:#22558C  url(thbg.gif) repeat-x; margin:0; padding-left:20px; margin-bottom:20px;
+	border-bottom:#aaa solid 2px;
+	}
+.sdiv1 p{
+	padding:4px 20px; font-size:14px; color:#666;
+	}
+.sdiv1 a{
+	color:#C30;
+	}
+.sdiv1 a:hover{
+	text-decoration:underline;
+	}
+	
+.ipage{
+	width:100%; height:40px; margin:10px 0;
+ 	}
+.ipage .w{
+	float:right; margin-right:5%;
+	}
+.ipage .w span{
+	float:left; border:#bbb solid 1px; margin:0 5px; display:block; display:block; height:24px; width:40px; line-height:24px; text-align:center;
+	}
+.ipage .w span.n,.ipage .w span.n5,.ipage .w span.p,.ipage .w span.ps5{
+	width:60px;
+	}
+.ipage .w span:hover,.ipage .w span.on{
+	background: #FF9; border:#F60 solid 1px; color:#F60;
+	}
+.ipage .w span a{
+	color:#666; display:block; line-height:24px; 
+	}
+.ipage .w span:hover a{
+	 color:#F60;
+	 }
+
+.member-box{
+	width:100%; height:500px; padding-bottom:30px; float:left;
+	}
+.member-box .left-tab{
+	width:182px; float:left; overflow:hidden; border-top:#f60 solid 3px;
+	}
+.member-box .left-tab li{
+	width:180px; font-size:16px; color:#333; text-indent:10px; height:34px; line-height:34px; background:#eee; 
+	border-bottom:#ccc solid 1px; border-left:#ccc solid 1px; border-right:#ccc solid 1px; cursor:pointer;
+	}
+.member-box .left-tab li a{
+	line-height:34px; display:block; color:#333;
+	}
+.member-box .left-tab li.on{
+    background:#fff;
+	 }
+.member-box .right-box{
+	width:780px; height:auto; overflow-x:hidden; overflow-y:auto; float:left; margin-left:20px;
+	}
+
+.member-box .right-box .catname{
+	width:100%; font-size:16px; color:#333; height:34px; line-height:34px; margin-bottom:20px; border-bottom:solid #ddd 1px;
+	color:#888; position:relative; float:left;
+	}
+.member-box .right-box .catname a{
+	color:#39F; font-size:12px; padding-right:10px;
+	}
+.member-box .right-box p{
+	width:48%; float:left; padding:5px 0;
+	}
+.member-box span.free{
+	padding:0 10px; background:#F90; color:#fff; float:left; margin:5px; font-size:12px;
+	}
+
+tr:hover td{
+	background: #FFC; 
+}

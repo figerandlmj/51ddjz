@@ -1,0 +1,67 @@
+/* css 重置 */
+img {
+	border: 0;
+}
+/* 本例子css */
+.zzsc {
+	width: 1020px;
+	height: 200px;
+	position: relative;
+}
+.zzsc .item_477_327 {
+	width: 477px;
+	height: 200px;
+}
+.zzsc .item_163_327 {
+	width: 163px;
+	height: 200px;
+}
+.zzsc .item_163_327 img {
+	width: 163px;
+	height: 200px;
+}
+.zzsc .item_327_163 {
+	width: 327px;
+	height: 163px;
+}
+.zzsc .main_content {
+	position: absolute;
+	z-index: 0;
+}
+.zzsc .main_content li {
+	width: 1020px;
+	height: 200px;
+	overflow: hidden;
+}
+.zzsc .main_content li a {
+	overflow: hidden;
+	float: left;
+	display: block;
+	_display: inline;
+	margin: 0 1px 1px 0;
+	font-size: 0;
+	line-height: 0;
+}
+.zzsc .main_content li a img {
+	vertical-align: middle;
+	position: relative;
+}
+.zzsc .bor_slide {
+	position: absolute;
+	top: 9px;
+	right: 0;
+	width: 22px;
+}
+.zzsc .bor_slide li {
+	width: 22px;
+	height: 50px;
+	margin-bottom: 2px;
+	text-align: center;
+	cursor: pointer;
+	font: normal 26px/50px Arial;
+	color: #fff;
+	background: #474E5D;
+}
+.zzsc .bor_slide li.on {
+	background: #3382EF;
+}

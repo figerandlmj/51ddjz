@@ -1,0 +1,14 @@
+﻿.topBgWrap{background-color:#fff;width:990px;margin:0 auto;overflow:hidden}
+.topBgWrap .fleft{width:200px}
+.topBgWrap .fright{width:1020px;padding-top:10px}
+.sliderBox{width:1020px;height:124px;overflow:hidden;position:relative;margin:0 0 10px 0;z-index:0}
+#show_pic{margin:0;padding:0;list-style:none;height:124px;position:absolute}
+#show_pic li{float:left;margin:0;padding:0;height:124px;position:absolute}
+#show_pic li a{display:inline-block;height:124px;width:1020px;background:url(../../images/loading.gif) center center no-repeat}
+#show_pic li img{display:block;height:124px;width:1020px}
+.sliderBox .img_pagebox{position:absolute;height:24px;bottom:10px;right:10px;right:10px\9}
+.sliderBox .img_page{background:rgba(110,110,110,0.3);*background:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#36000000,endColorstr=#36000000);*zoom:1;float:left;width:auto;height:24px;padding-left:3px;border-radius:10px;display:block}
+#img_text{display:none}
+.sliderBox #icon_num a{float:left;display:inline-block;background-color:#fff;padding-right:1px;width:19px;height:20px;color:#6e6e6e;text-align:center;cursor:pointer;margin:2px 3px 0 0;display:inline-block;line-height:20x;font-size:12px;border-radius:10px;position:relative;text-decoration:none}
+.sliderBox #icon_num a.active,.sliderBox #icon_num a.active:visited,.sliderBox #icon_num a.active:hover,.sliderBox #icon_num a.active:active{background-color:#4b8400;color:#fefefe;text-decoration:none}
+.sliderBox #icon_num a,.sliderBox #icon_num a:visited,.sliderBox #icon_num a:hover{color:#6e6e6e;text-decoration:none;line-height:20px}
